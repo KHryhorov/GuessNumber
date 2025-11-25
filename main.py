@@ -10,6 +10,7 @@ attempts_history = []
 while True:
     secret_number = random.randint(1, 50)
     attempts = 0
+    max_attempts = 3
     print("\nЯ загадав число від 1 до 50. Спробуй вгадати!")
 
     while True:
