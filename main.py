@@ -37,4 +37,4 @@ while True:
         break
 print("\nІсторія твоїх раундів (кількість спроб у кожному):")
 print(attempts_history)
-print("Дякую за гру!")
+print("Дякую за гру)!")
