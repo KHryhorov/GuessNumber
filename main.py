@@ -14,7 +14,7 @@ while True:
     print("\nЯ загадав число від 1 до 50. Спробуй вгадати!")
 
     while True:
-        user_input = input("Введи свій варіант: ")
+        user_input = input("Введи,свій варіант: ")
 
 
         if user_input.isdigit():
