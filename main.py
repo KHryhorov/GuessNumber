@@ -2,7 +2,7 @@ import random
 
 print("Вітаю в грі 'Вгадай число'!")
 player_name = input("Введи свій нікнейм: ")
-print(f"Привіт, {player_name}! Почнемо гру!")
+print("Привіт, {player_name}! Почнемо гру!")
 
 
 attempts_history = []
