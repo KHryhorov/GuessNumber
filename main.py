@@ -11,7 +11,7 @@ while True:
     secret_number = random.randint(1, 50)
     attempts = 0
 
-    print("\nЯ загадав число від 1: до 50:. Спробуй вгадати!")
+    print("Я загадав число від 1: до 50:. Спробуй вгадати!")
 
     while True:
         user_input = input("Введи,свій варіант: ")
@@ -35,6 +35,6 @@ while True:
     play_again = input("Хочеш зіграти ще раз? (так/ні): ").lower()
     if play_again != "так":
         break
-print("\nІсторія твоїх раундів (кількість спроб у кожному):")
+print("Історія твоїх раундів (кількість спроб у кожному):")
 print(attempts_history)
 print("Дякую за гру)!")
