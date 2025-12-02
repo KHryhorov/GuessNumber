@@ -4,7 +4,6 @@ print("Вітаю в грі 'Вгадай число'!")
 player_name = input("Введи свій нікнейм: ")
 print("Привіт, {player_name}! Почнемо гру!")
 
-
 attempts_history = []
 
 while True:
@@ -26,8 +25,8 @@ while True:
             elif guess > secret_number:
                 print("Моє число менше!")
             else:
-                print(f"Вітаю, {player_name}! Ти вгадав число {secret_number}!")
-                print(f"Кількість спроб: {attempts}")
+                print("Вітаю, {player_name}! Ти вгадав число {secret_number}!")
+                print("Кількість спроб: {attempts}")
                 attempts_history.append(attempts)
                 break
         else:
